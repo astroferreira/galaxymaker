@@ -1,0 +1,2 @@
+# galaxymaker
+Criar galáxias sintéticas
