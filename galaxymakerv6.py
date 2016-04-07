@@ -1,3 +1,5 @@
+!/usr/bin/env python
+-*- coding: utf-8 -*-
 ##############################################################################
 ## This is a main script that runs routines to create synthetic galaxies	##
 ## 						Created by Geferson Lucatelli 						##
@@ -5,13 +7,10 @@
 ##							Physics Laboratory								##
 ##								03.16.2016									##
 ##############################################################################
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-##############################################################################
 ##IMPORT SCRIPTS
 ##############################################################################
+from galaxymakerlibv6 import *
 import galaxymakerlibv6
-from galaxymakerlibv6 import*
 import os
 M=5.0
 N=5.0
@@ -29,4 +28,3 @@ BB=1.60
 PHI=0.6
 m=1.5
 gal=spiral_galaxy_model(M,N,p,k,c)
-# log_spiral(m,M,N,p,k,c,Io,n,ro,q)
